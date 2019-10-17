@@ -158,7 +158,13 @@ void loop() {  // must use this Arduino loop() and setup() for CAN to work.  It 
 	
 	while(1) {
 		
-		//ignition = (~PINC & 0b00000001);  // THIS NEEDS TO CHANGE TO ADC6!!!
+		ignition = read_ADC_as_DI(6);
+		//ignition = (~PINC & 0b00000001);  // used for debug when ADC6 is not available (on DIP version of ATMEGA328P)
+		
+		if ((ignition == 0) && (prev_ign == 1)) {  // if ignition was on and now off, turn off all digital outputs
+			set_digital_outputs(0);
+		}
+		prev_ign = ignition;
 		
 		if (flagRecv) {
 			
@@ -168,7 +174,7 @@ void loop() {  // must use this Arduino loop() and setup() for CAN to work.  It 
 			while (CAN_MSGAVAIL == CAN.checkReceive()) {
 				CAN.readMsgBuf(&len, rxBuf); // Read data: len = data length, buf = data byte(s)
 				do_data = rxBuf[7];  // Digital output data is contained in byte 7
-				if ((~PINC & 0b00000001) == 0) {  // if ignition is zero, then turn off all digital outputs  // THIS NEEDS TO CHANGE TO ADC6!!!!
+				if (ignition == 0) {  // if ignition is zero, then turn off all digital outputs  // THIS NEEDS TO CHANGE TO ADC6!!!!
 					do_data = 0;
 				}
 				set_digital_outputs(do_data);
@@ -212,9 +218,8 @@ void loop() {  // must use this Arduino loop() and setup() for CAN to work.  It 
 			} 
 			
 		}
-		//prev_ign = ignition;
 			
-		message[0] = (~PINC & 0b00111111);  // put digital inputs into CAN message
+		message[0] = (~PINC & 0b00111111) | (ignition << 6);  // put digital inputs into CAN message
 		
 		cli();
 		sent_msg = CAN.sendMsgBuf(CAN_output_address, 0, 8, message);  //id, standard frame, data len, data bu
