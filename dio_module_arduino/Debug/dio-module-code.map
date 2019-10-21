@@ -599,7 +599,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x18f6
+.text           0x00000000     0x1900
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.272/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -710,214 +710,214 @@ END GROUP
  .text._Z14read_ADC_as_DIh
                 0x000001d4       0x2c main.o
                 0x000001d4                _Z14read_ADC_as_DIh
- .text.setup    0x00000200       0xc8 main.o
+ .text.setup    0x00000200       0xd4 main.o
                 0x00000200                setup
- .text.loop     0x000002c8      0x156 main.o
-                0x000002c8                loop
+ .text.loop     0x000002d4      0x154 main.o
+                0x000002d4                loop
  .text.startup._GLOBAL__sub_I_rxId
-                0x0000041e       0x20 main.o
+                0x00000428       0x20 main.o
  .text.initVariant
-                0x0000043e        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x0000043e                initVariant
+                0x00000448        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000448                initVariant
  .text.startup.main
-                0x00000440       0x1e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000440                main
- .text.nothing  0x0000045e        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x0000044a       0x1e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x0000044a                main
+ .text.nothing  0x00000468        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
  .text.attachInterrupt
-                0x00000460       0x40 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x00000460                attachInterrupt
+                0x0000046a       0x40 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x0000046a                attachInterrupt
  .text.__vector_1
-                0x000004a0       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x000004a0                __vector_1
+                0x000004aa       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x000004aa                __vector_1
  .text.__vector_2
-                0x000004ee       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
-                0x000004ee                __vector_2
+                0x000004f8       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+                0x000004f8                __vector_2
  .text.__vector_16
-                0x0000053c       0x94 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000053c                __vector_16
- .text.millis   0x000005d0       0x18 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000005d0                millis
- .text.micros   0x000005e8       0x4a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000005e8                micros
- .text.delay    0x00000632       0x78 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000632                delay
+                0x00000546       0x94 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000546                __vector_16
+ .text.millis   0x000005da       0x18 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000005da                millis
+ .text.micros   0x000005f2       0x4a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000005f2                micros
+ .text.delay    0x0000063c       0x78 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000063c                delay
  .text.delayMicroseconds
-                0x000006aa       0x16 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000006aa                delayMicroseconds
- .text.init     0x000006c0       0x76 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000006c0                init
+                0x000006b4       0x16 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000006b4                delayMicroseconds
+ .text.init     0x000006ca       0x76 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000006ca                init
  .text.turnOffPWM
-                0x00000736       0x52 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x00000788       0x78 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000788                pinMode
+                0x00000740       0x52 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00000792       0x78 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000792                pinMode
  .text.digitalWrite
-                0x00000800       0x5e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000800                digitalWrite
+                0x0000080a       0x5e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000080a                digitalWrite
  .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x0000085e       0x34 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x0000085e                _ZN8SPIClass16beginTransactionE11SPISettings
+                0x00000868       0x34 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000868                _ZN8SPIClass16beginTransactionE11SPISettings
  .text._ZN8SPIClass8transferEh
-                0x00000892        0xe C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000892                _ZN8SPIClass8transferEh
+                0x0000089c        0xe C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x0000089c                _ZN8SPIClass8transferEh
  .text._ZN8SPIClass14endTransactionEv
-                0x000008a0       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000008a0                _ZN8SPIClass14endTransactionEv
+                0x000008aa       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000008aa                _ZN8SPIClass14endTransactionEv
  .text._Z11txSidhToRTSh
-                0x000008c2       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000008c2                _Z11txSidhToRTSh
+                0x000008cc       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000008cc                _Z11txSidhToRTSh
  .text._Z14txSidhToTxLoadh
-                0x000008de       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000008de                _Z14txSidhToTxLoadh
+                0x000008e8       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000008e8                _Z14txSidhToTxLoadh
  .text._ZN7MCP_CAN13mcp2515_resetEv
-                0x000008fa       0x38 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000008fa                _ZN7MCP_CAN13mcp2515_resetEv
+                0x00000904       0x38 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000904                _ZN7MCP_CAN13mcp2515_resetEv
  .text._ZN7MCP_CAN20mcp2515_readRegisterEh
-                0x00000932       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000932                _ZN7MCP_CAN20mcp2515_readRegisterEh
+                0x0000093c       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x0000093c                _ZN7MCP_CAN20mcp2515_readRegisterEh
  .text._ZN7MCP_CAN19mcp2515_setRegisterEhh
-                0x00000976       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000976                _ZN7MCP_CAN19mcp2515_setRegisterEhh
+                0x00000980       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000980                _ZN7MCP_CAN19mcp2515_setRegisterEhh
  .text._ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
-                0x000009ba       0x50 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000009ba                _ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
+                0x000009c4       0x50 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000009c4                _ZN7MCP_CAN22mcp2515_modifyRegisterEhhh
  .text._ZN7MCP_CAN18mcp2515_readStatusEv
-                0x00000a0a       0x3c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000a0a                _ZN7MCP_CAN18mcp2515_readStatusEv
+                0x00000a14       0x3c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000a14                _ZN7MCP_CAN18mcp2515_readStatusEv
  .text._ZN7MCP_CAN14setSleepWakeupEh
-                0x00000a46       0x12 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000a46                _ZN7MCP_CAN14setSleepWakeupEh
+                0x00000a50       0x12 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000a50                _ZN7MCP_CAN14setSleepWakeupEh
  .text._ZN7MCP_CAN7getModeEv
-                0x00000a58        0xa C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000a58                _ZN7MCP_CAN7getModeEv
+                0x00000a62        0xa C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000a62                _ZN7MCP_CAN7getModeEv
  .text._ZN7MCP_CAN22mcp2515_requestNewModeEh
-                0x00000a62       0x74 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000a62                _ZN7MCP_CAN22mcp2515_requestNewModeEh
+                0x00000a6c       0x74 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000a6c                _ZN7MCP_CAN22mcp2515_requestNewModeEh
  .text._ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
-                0x00000ad6       0x84 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000ad6                _ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
+                0x00000ae0       0x84 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000ae0                _ZN7MCP_CAN23mcp2515_setCANCTRL_ModeEh
  .text._ZN7MCP_CAN5sleepEv
-                0x00000b5a       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000b5a                _ZN7MCP_CAN5sleepEv
+                0x00000b64       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000b64                _ZN7MCP_CAN5sleepEv
  .text._ZN7MCP_CAN4wakeEv
-                0x00000b7c       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000b7c                _ZN7MCP_CAN4wakeEv
+                0x00000b86       0x22 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000b86                _ZN7MCP_CAN4wakeEv
  .text._ZN7MCP_CAN7setModeEh
-                0x00000b9e        0xc C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000b9e                _ZN7MCP_CAN7setModeEh
+                0x00000ba8        0xc C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000ba8                _ZN7MCP_CAN7setModeEh
  .text._ZN7MCP_CAN18mcp2515_configRateEhh
-                0x00000baa      0x138 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000baa                _ZN7MCP_CAN18mcp2515_configRateEhh
+                0x00000bb4      0x138 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000bb4                _ZN7MCP_CAN18mcp2515_configRateEhh
  .text._ZN7MCP_CAN22mcp2515_initCANBuffersEv
-                0x00000ce2       0x4c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000ce2                _ZN7MCP_CAN22mcp2515_initCANBuffersEv
+                0x00000cec       0x4c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000cec                _ZN7MCP_CAN22mcp2515_initCANBuffersEv
  .text._ZN7MCP_CAN12mcp2515_initEhh
-                0x00000d2e       0xaa C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000d2e                _ZN7MCP_CAN12mcp2515_initEhh
+                0x00000d38       0xaa C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000d38                _ZN7MCP_CAN12mcp2515_initEhh
  .text._Z17mcp2515_id_to_bufhmPh
-                0x00000dd8       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000dd8                _Z17mcp2515_id_to_bufhmPh
+                0x00000de2       0x4e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000de2                _Z17mcp2515_id_to_bufhmPh
  .text._ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
-                0x00000e26      0x188 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000e26                _ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
+                0x00000e30      0x188 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000e30                _ZN7MCP_CAN19mcp2515_read_canMsgEhPVmPVhS3_S3_S3_
  .text._ZN7MCP_CAN22mcp2515_start_transmitEh
-                0x00000fae       0x36 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000fae                _ZN7MCP_CAN22mcp2515_start_transmitEh
+                0x00000fb8       0x36 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000fb8                _ZN7MCP_CAN22mcp2515_start_transmitEh
  .text._ZN7MCP_CAN20mcp2515_write_canMsgEhmhhhPVKh
-                0x00000fe4       0xec C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00000fe4                _ZN7MCP_CAN20mcp2515_write_canMsgEhmhhhPVKh
+                0x00000fee       0xec C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00000fee                _ZN7MCP_CAN20mcp2515_write_canMsgEhmhhhPVKh
  .text._ZN7MCP_CAN24mcp2515_getNextFreeTXBufEPh
-                0x000010d0       0x90 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000010d0                _ZN7MCP_CAN24mcp2515_getNextFreeTXBufEPh
+                0x000010da       0x90 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000010da                _ZN7MCP_CAN24mcp2515_getNextFreeTXBufEPh
  .text._ZN7MCP_CAN7init_CSEh
-                0x00001160       0x26 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00001160                _ZN7MCP_CAN7init_CSEh
+                0x0000116a       0x26 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x0000116a                _ZN7MCP_CAN7init_CSEh
  .text._ZN7MCP_CANC2Eh
-                0x00001186       0x10 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00001186                _ZN7MCP_CANC2Eh
-                0x00001186                _ZN7MCP_CANC1Eh
+                0x00001190       0x10 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x00001190                _ZN7MCP_CANC2Eh
+                0x00001190                _ZN7MCP_CANC1Eh
  .text._ZN7MCP_CAN5beginEhh
-                0x00001196       0x30 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00001196                _ZN7MCP_CAN5beginEhh
+                0x000011a0       0x30 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000011a0                _ZN7MCP_CAN5beginEhh
  .text._ZN7MCP_CAN7sendMsgEmhhhPKhb
-                0x000011c6       0xe8 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000011c6                _ZN7MCP_CAN7sendMsgEmhhhPKhb
+                0x000011d0       0xe8 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000011d0                _ZN7MCP_CAN7sendMsgEmhhhPKhb
  .text._ZN7MCP_CAN10sendMsgBufEmhhPKhb
-                0x000012ae       0x26 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000012ae                _ZN7MCP_CAN10sendMsgBufEmhhPKhb
+                0x000012b8       0x26 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000012b8                _ZN7MCP_CAN10sendMsgBufEmhhPKhb
  .text._ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
-                0x000012d4       0x7e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000012d4                _ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
+                0x000012de       0x7e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000012de                _ZN7MCP_CAN12readMsgBufIDEhPVmPVhS3_S3_S3_
  .text._ZN7MCP_CAN14readRxTxStatusEv
-                0x00001352       0x32 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00001352                _ZN7MCP_CAN14readRxTxStatusEv
+                0x0000135c       0x32 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x0000135c                _ZN7MCP_CAN14readRxTxStatusEv
  .text._ZN7MCP_CAN10readMsgBufEPhS0_
-                0x00001384       0x42 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x00001384                _ZN7MCP_CAN10readMsgBufEPhS0_
+                0x0000138e       0x42 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x0000138e                _ZN7MCP_CAN10readMsgBufEPhS0_
  .text._ZN7MCP_CAN12checkReceiveEv
-                0x000013c6       0x10 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000013c6                _ZN7MCP_CAN12checkReceiveEv
+                0x000013d0       0x10 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000013d0                _ZN7MCP_CAN12checkReceiveEv
  .text._ZN7MCP_CAN10mcpPinModeEhh
-                0x000013d6      0x10c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000013d6                _ZN7MCP_CAN10mcpPinModeEhh
+                0x000013e0      0x10c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000013e0                _ZN7MCP_CAN10mcpPinModeEhh
  .text._ZN7MCP_CAN15mcpDigitalWriteEhh
-                0x000014e2       0x3e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
-                0x000014e2                _ZN7MCP_CAN15mcpDigitalWriteEhh
+                0x000014ec       0x3e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+                0x000014ec                _ZN7MCP_CAN15mcpDigitalWriteEhh
  .text._ZN8SPIClass5beginEv
-                0x00001520       0x6c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x00001520                _ZN8SPIClass5beginEv
+                0x0000152a       0x6c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x0000152a                _ZN8SPIClass5beginEv
  .text.__vector_18
-                0x0000158c       0x64 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x0000158c                __vector_18
+                0x00001596       0x64 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001596                __vector_18
  .text.__vector_19
-                0x000015f0       0x4c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000015f0                __vector_19
+                0x000015fa       0x4c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000015fa                __vector_19
  .text._Z17Serial0_availablev
-                0x0000163c       0x14 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x0000163c                _Z17Serial0_availablev
+                0x00001646       0x14 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001646                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00001650       0x5a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .text.__empty  0x000016aa        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x000016aa                yield
+                0x0000165a       0x5a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .text.__empty  0x000016b4        0x2 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x000016b4                yield
  .text._ZN5Print5writeEPKhj
-                0x000016ac       0x54 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000016ac                _ZN5Print5writeEPKhj
+                0x000016b6       0x54 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000016b6                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00001700       0x2a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001700                _ZN5Print5writeEPKc
+                0x0000170a       0x2a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000170a                _ZN5Print5writeEPKc
  .text._ZN5Print5printEPKc
-                0x0000172a        0x4 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000172a                _ZN5Print5printEPKc
+                0x00001734        0x4 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001734                _ZN5Print5printEPKc
  .text._ZN14HardwareSerial9availableEv
-                0x0000172e       0x18 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000172e                _ZN14HardwareSerial9availableEv
+                0x00001738       0x18 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001738                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x00001746       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001746                _ZN14HardwareSerial4peekEv
+                0x00001750       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001750                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00001762       0x28 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001762                _ZN14HardwareSerial4readEv
+                0x0000176c       0x28 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000176c                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x0000178a       0x1e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000178a                _ZN14HardwareSerial17availableForWriteEv
+                0x00001794       0x1e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001794                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x000017a8       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000017a8                _Z14serialEventRunv
+                0x000017b2       0x1c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000017b2                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x000017c4       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000017c4                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x000017ce       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000017ce                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x00001808       0x9a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001808                _ZN14HardwareSerial5writeEh
+                0x00001812       0x9a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001812                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x000018a2       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000018a2                _ZN14HardwareSerial5flushEv
- .text.libgcc   0x000018e6        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x000018e6                __tablejump2__
-                0x000018f2                . = ALIGN (0x2)
+                0x000018ac       0x44 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000018ac                _ZN14HardwareSerial5flushEv
+ .text.libgcc   0x000018f0        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x000018f0                __tablejump2__
+                0x000018fc                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000018f2        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x000018f2                _exit
-                0x000018f2                exit
+ .fini9         0x000018fc        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000018fc                _exit
+                0x000018fc                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -936,11 +936,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000018f2        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000018fc        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000018f6                _etext = .
+                0x00001900                _etext = .
 
-.data           0x00800100      0x234 load address 0x000018f6
+.data           0x00800100      0x234 load address 0x00001900
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -1017,8 +1017,8 @@ END GROUP
                 0x0080036a                Serial
  *(COMMON)
                 0x00800407                PROVIDE (__bss_end, .)
-                0x000018f6                __data_load_start = LOADADDR (.data)
-                0x00001b2a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00001900                __data_load_start = LOADADDR (.data)
+                0x00001b34                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800407        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -1127,50 +1127,50 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xc7d0
+.debug_info     0x00000000     0xc7e1
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.272/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4     0x152c main.o
- .debug_info    0x00001b20      0x237 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00001d57      0x21c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_info    0x00001f73      0x2cb C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x0000223e      0x5fe C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x0000283c     0x3572 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
- .debug_info    0x00005dae      0x66b C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_info    0x00006419     0x1b16 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00007f2f       0x3e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_info    0x00007f6d     0x28ff C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x0000a86c     0x1f64 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x000005f4     0x153d main.o
+ .debug_info    0x00001b31      0x237 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00001d68      0x21c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_info    0x00001f84      0x2cb C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x0000224f      0x5fe C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x0000284d     0x3572 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+ .debug_info    0x00005dbf      0x66b C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_info    0x0000642a     0x1b16 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00007f40       0x3e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x00007f7e     0x28ff C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0000a87d     0x1f64 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
-.debug_abbrev   0x00000000     0x235f
+.debug_abbrev   0x00000000     0x2350
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.272/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x419 main.o
- .debug_abbrev  0x000009bb      0x12d C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00000ae8       0xfc C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_abbrev  0x00000be4      0x146 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00000d2a      0x15b C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x00000e85      0x52e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
- .debug_abbrev  0x000013b3      0x283 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_abbrev  0x00001636      0x3ce C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x00001a04       0x2a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_abbrev  0x00001a2e      0x47a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00001ea8      0x4b7 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x000005a2      0x40a main.o
+ .debug_abbrev  0x000009ac      0x12d C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00000ad9       0xfc C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_abbrev  0x00000bd5      0x146 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00000d1b      0x15b C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00000e76      0x52e C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+ .debug_abbrev  0x000013a4      0x283 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_abbrev  0x00001627      0x3ce C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x000019f5       0x2a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00001a1f      0x47a C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001e99      0x4b7 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
-.debug_line     0x00000000     0x3360
+.debug_line     0x00000000     0x3354
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.272/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133      0x4ef main.o
- .debug_line    0x00000622      0x165 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00000787      0x1a0 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
- .debug_line    0x00000927      0x299 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x00000bc0      0x252 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x00000e12     0x1455 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
- .debug_line    0x00002267      0x2e3 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
- .debug_line    0x0000254a      0x28c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x000027d6       0x41 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .debug_line    0x00002817      0x685 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00002e9c      0x4c4 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000133      0x4e3 main.o
+ .debug_line    0x00000616      0x165 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x0000077b      0x1a0 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(WInterrupts.o)
+ .debug_line    0x0000091b      0x299 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00000bb4      0x252 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00000e06     0x1455 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(mcp_can.o)
+ .debug_line    0x0000225b      0x2e3 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+ .debug_line    0x0000253e      0x28c C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x000027ca       0x41 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x0000280b      0x685 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00002e90      0x4c4 C:\Users\gtetil\Documents\Projects\dio-module-code\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
 
 .debug_frame    0x00000000     0x1224
  *(.debug_frame)

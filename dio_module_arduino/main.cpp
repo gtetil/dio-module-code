@@ -81,7 +81,7 @@ static inline void initCANaddresses(void) {
 	PORTD |= (1 << PIND7);  // set PIND7 pull-up resistor
 	DDRD &= ~(1 << PIND0);  // set PIND0 to input, for CAN ADDR_2
 	PORTD |= (1 << PIND0);  // set PIND0 pull-up resistor
-	uint8_t adc7_as_di = read_ADC_as_DI(7);  // CAN_ADDR_1
+	uint8_t adc7_as_di = !read_ADC_as_DI(7);  // CAN_ADDR_1
 	uint8_t base_address = ((~PIND & 0b10000000) >> 7) | ((~PIND & 0b00000001) << 2) | (adc7_as_di << 1);
 	CAN_input_address = base_address;
 	CAN_output_address = 0x010 | base_address;
@@ -158,7 +158,7 @@ void loop() {  // must use this Arduino loop() and setup() for CAN to work.  It 
 	
 	while(1) {
 		
-		ignition = read_ADC_as_DI(6);
+		ignition = !read_ADC_as_DI(6);
 		//ignition = (~PINC & 0b00000001);  // used for debug when ADC6 is not available (on DIP version of ATMEGA328P)
 		
 		if ((ignition == 0) && (prev_ign == 1)) {  // if ignition was on and now off, turn off all digital outputs
@@ -174,7 +174,7 @@ void loop() {  // must use this Arduino loop() and setup() for CAN to work.  It 
 			while (CAN_MSGAVAIL == CAN.checkReceive()) {
 				CAN.readMsgBuf(&len, rxBuf); // Read data: len = data length, buf = data byte(s)
 				do_data = rxBuf[7];  // Digital output data is contained in byte 7
-				if (ignition == 0) {  // if ignition is zero, then turn off all digital outputs  // THIS NEEDS TO CHANGE TO ADC6!!!!
+				if (ignition == 0) {  // if ignition is zero, then turn off all digital outputs
 					do_data = 0;
 				}
 				set_digital_outputs(do_data);
